@@ -23,6 +23,7 @@ cp -a AIR_Receipe/run_dnn.sh ~/kaldi/egs/AIR_Seed_PER/s5/local/nnet/run_dnn.sh
 
 cp -a AIR_Receipe/local_custom ~/kaldi/egs/AIR_Seed_PER/s5/local_custom
 cp -a AIR_Receipe/Python_Files ~/kaldi/egs/AIR_Seed_PER/s5/Python_Files
+cp -a AIR_Receipe/steps_fa ~/kaldi/egs/AIR_Seed_PER/s5/steps_fa
 
 mkdir -p ~/kaldi/egs/AIR_Seed_PER/s5/data/local/
 
