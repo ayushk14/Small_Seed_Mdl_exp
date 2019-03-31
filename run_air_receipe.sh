@@ -27,5 +27,5 @@ cp -a AIR_Receipe/steps_fa ~/kaldi/egs/AIR_Seed_PER/s5/steps_fa
 
 mkdir -p ~/kaldi/egs/AIR_Seed_PER/s5/data/local/
 
-cp -a AIR_Receipe/data_files ~/kaldi/egs/AIR_Seed_PER/data
-cp -a AIR_Receipe/dict_files ~/kaldi/egs/AIR_Seed_PER/dict
+cp -a AIR_Receipe/data_files ~/kaldi/egs/AIR_Seed_PER/s5/data
+cp -a AIR_Receipe/dict_files ~/kaldi/egs/AIR_Seed_PER/s5/dict
