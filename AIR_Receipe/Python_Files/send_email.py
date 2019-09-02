@@ -15,14 +15,13 @@ end_time = sys.argv[2]
 exp_description = sys.argv[3]
 
 receiver_list = []
-receiver_list.append('khopkar.ayush10@gmail.com')
-receiver_list.append('m.abhijith04@gmail.com')
+receiver_list.append('RECEIVER EMAIL ID')
 
 
 # In[3]:
 
 
-sender = 'khopkar.ayush.java@gmail.com'
+sender = 'SENDER EMAIL ID'
 
 
 # In[4]:
@@ -47,7 +46,7 @@ f_content = file.read()
 
 
 for receiver in receiver_list:
-    message = """From: khopkar.ayush.java@gmail.com
+    message = """From: SENDER EMAIL ID
 To: """+receiver+"""
 Subject: """+subject+"""-"""+exp_description+"""
 
@@ -60,7 +59,7 @@ The results are as follows:-\n
     try:
         smtpObj = smtplib.SMTP('smtp.gmail.com',587)
         smtpObj.starttls()
-        smtpObj.login("khopkar.ayush.java@gmail.com","java@14091995~~")
+        smtpObj.login("SENDER EMAIL ID","SENDER PASSWORD")
         smtpObj.sendmail(sender,receiver,message)
         print('Successfully sent')
     except smtplib.SMTPException as e:
